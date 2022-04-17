@@ -12,7 +12,7 @@
     </nav>
     <main>
         <h2>Vacation Contest Sign-Up Form</h2>
-        <form method="GET" action="results.html" <!-- TODO: Set Action and Method Properties -->
+        <form method="GET" action="results.html"><!-- TODO: Set Action and Method Properties -->
             <div>
                 <label for="firstname">Your First Name</label>
                 <input type="text" id="firstname" name="firstname">
@@ -91,6 +91,48 @@
                         <input type="text" id="zip" name="zip>"
                     </div>
             </fieldset>
+            <fieldset>
+                <legend>Your Preferences</legend>
+                <h3>Choose your location</h3>
+                    <div>
+                        <input type="radio" id="aruba" name="location" value="Aruba">
+                        <label for="aruba">Aruba</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="japan" name="location" value="Japan">
+                        <label for="japan">Japan</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="reykjavik" name="location" value="Reykjavik">
+                        <label for="reykjavik">Reykjavik</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="new zealand" name="location" value="New Zealand">
+                        <label for="new zealand">New Zealand</label>
+                    </div>
+                    <div>
+                        <label for="color">Favorite Color</label>
+                        <input type="color" id="color" name="color">
+                    </div>
+                <h3>Select any add-ons</h3>
+                    <div>
+                        <input type="checkbox" id="sauna" name="extras" value="Sauna Access">
+                        <label for="sauna">Sauna Access</label> 
+                    </div>
+                    <div>
+                        <input type="checkbox" id="hot tub" name="extras" value="Hot Tub">
+                        <label for="hot tub">Hot Tub</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="mini bar" name="extras" value="Mini Bar">
+                        <label for="mini bar">Mini Bar</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="ocean view" name="extras" value="Ocean View">
+                        <label for="ocean view">Ocean View</label>
+                    </div>
+            </fieldset>
+            <input type="submit" value="Enter the Contest!">
             <!-- TODO: Make fieldset and legend -->
             <!-- Todo: Email Input -->
             <!-- Todo: Street Address Input -->
